@@ -6,7 +6,7 @@ begin
   driver.navigate.to 'https://google.com'
   # Maximize or set size of browser window
   driver.manage.window.maximize
-  sleep 5
+  sleep 2
 ensure
   driver.quit
 end
